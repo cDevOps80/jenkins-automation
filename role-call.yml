@@ -1,0 +1,5 @@
+- name: Calling to role to perform automation
+  hosts: all
+  become: true
+  roles:
+    - "{{ role_call }}"
